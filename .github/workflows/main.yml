@@ -39,6 +39,6 @@ jobs:
         image: wisedbackend
         tags: latest
         registry: docker
-        dockerfile: .docker/backend/Dockerfile
+        dockerfile: ./docker/backend/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
